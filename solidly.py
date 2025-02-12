@@ -48,7 +48,6 @@ def get_mcap(token_input):
         mcap = round(mcap/1000000,1)
     return mcap
 
-
 for x in range(7):
     result[token[x]] = {}
     if x<6: result[token[x]]['fdv'] = get_fully_diluted_value(token_gecko[x])
